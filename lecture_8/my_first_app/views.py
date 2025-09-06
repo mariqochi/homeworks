@@ -12,4 +12,4 @@ def home(request):
 # Create your views here.
 class HomeView(View):
     def get(self, request):
-        return HttpResponse("Welcome to the Home Page!")
+        return HttpResponse("Welcomee to the Home Page!")
