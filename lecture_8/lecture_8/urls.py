@@ -1,13 +1,15 @@
 
 
 
-from django.urls import path
+from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
+from django.contrib import admin # This line is the correct import
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-]
+    path('', include('my_first_app.urls')),]
 
 if settings.DEBUG:
     # Serve media files
