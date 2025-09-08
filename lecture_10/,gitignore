@@ -1,0 +1,29 @@
+This file tells Git which files to ignore.
+Python-specific files
+Byte-code files
+pycache/
+*.pyc
+
+Virtual environment folder
+venv/
+env/
+
+Django-specific files
+The default SQLite database file
+db.sqlite3
+
+Local settings and sensitive data
+It's crucial not to commit this file if it contains secret keys or passwords.
+local_settings.py
+
+IDE-specific files
+PyCharm-specific files
+.idea/
+
+Operating System files
+.DS_Store
+Thumbs.db
+
+User-uploaded media files
+This is a good practice if your project allows file uploads.
+media/

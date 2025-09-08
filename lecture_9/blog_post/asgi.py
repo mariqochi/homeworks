@@ -1,5 +1,5 @@
 """
-ASGI config for blog_post project.
+ASGI config for students_courses_books_authors project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 

@@ -1,5 +1,5 @@
 """
-WSGI config for blog_post project.
+WSGI config for students_courses_books_authors project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
